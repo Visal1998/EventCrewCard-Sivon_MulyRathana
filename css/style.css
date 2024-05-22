@@ -2,17 +2,19 @@ body {
   font-family: "Poppins", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
+  padding: 0;
+  margin: auto;
 }
 
 
 
 .layout_padding {
-  padding-top: 10px;
+  padding-top: 120px;
   padding-bottom: 10px;
 }
 
 .layout_padding2 {
-  padding-top: 45px;
+  padding-top: 60px;
   padding-bottom: 45px;
 }
 
@@ -57,7 +59,7 @@ body {
 
 /*header section*/
 .hero_area {
-  height: 98vh;
+  height: 80vh;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -78,7 +80,7 @@ body {
 }
 
 .header_section .nav_container {
-  margin: 0 auto;
+  margin: 500 auto;
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
@@ -122,6 +124,7 @@ a:focus {
   width: 35px;
   height: 35px;
   padding: 0;
+  margin: auto;
   border: none;
 }
 
@@ -222,8 +225,8 @@ a:focus {
 
 .slider_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+      -ms-flex-align: right;
+          align-items: self-end;
 }
 
 .slider_section .detail_box {
@@ -232,17 +235,30 @@ a:focus {
 
 .slider_section .detail_box h1 {
   text-transform: uppercase;
+  font-size: 34px;
   font-weight: bold;
+  align-items: center;
   color: #4b208c;
+  
 }
 .slider_section .detail_box h2 {
   text-transform: uppercase;
+  margin-top: 18px;
+  font-size: 25pt;
   font-weight: bold;
+  
+}
+.slider_section .detail_box h3 {
+  text-transform: uppercase;
+  font-size: 17pt;
+  font-weight: bold;
+  
 }
 .slider_section .detail_box p {
-  font-size: 20pt;
-  margin-top: 18px;
+  font-size: 16pt;
+  margin-top: 7px;
   font-weight: bold;
+  
 }
 
 .slider_section .detail_box a {
@@ -251,7 +267,8 @@ a:focus {
   background-color: #4b208c;
   color: #ffffff;
   border-radius: 35px;
-  margin-top: 35px;
+  margin-top: 20px;
+  
 }
 
 .slider_section .detail_box a:hover {
@@ -348,11 +365,14 @@ a:focus {
 
 .contact_section button {
   border: 2px;
+  font-size: 20px;
+  font: bold;
   display: inline-block;
   padding: 12px 10px;
   background-color: #4b208c;
   color: #ffffff;
   border-radius: 0px;
+  height: 20vh;
   margin-top: 35px;
 }
 
